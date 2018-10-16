@@ -6,13 +6,24 @@ view the inbound request contents in the docker console log.
 # TODO
 show sample output of debugger working
 
-# Starting
 
+# Getting started
+simply run:
+```
+docker pull unmgmt/webhook-debugger
+docker run \
+  --name webhook-debugger \
+  -d \
+  --rm \
+  -p 8080:8080 \
+  unmgmt/webhook-debugger
+```
+# Developing
 First, you build it:
-`make build` or `docker build -t reflector .`
+`make build` or `docker build -t webhook-debugger .`
 
 Then you run it:
-`make run` or `docker run -it --rm reflector`
+`make run` or `docker run -it --rm webhook-debugger`
 
 Default port is 8080
 
