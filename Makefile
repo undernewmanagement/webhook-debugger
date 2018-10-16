@@ -4,8 +4,8 @@ help:
 
 .PHONY: build
 build:
-	docker build -t reflector .
+	docker build -t webhook-debugger .
 
 .PHONY: run
 run:
-	docker run -it --rm -p 8080:8080 reflector
+	docker run -it --rm -p 8080:8080 webhook-debugger
