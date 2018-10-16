@@ -1,5 +1,10 @@
-# request-reflector
-A super simple request bin for testing your webhooks
+# webhook-debugger
+A super simple request bin for testing your webhooks. Simply spin up this
+docker container, point your webooks are the container, and then
+view the inbound request contents in the docker console log.
+
+# TODO
+show sample output of debugger working
 
 # Starting
 
