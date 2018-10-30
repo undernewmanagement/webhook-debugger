@@ -15,7 +15,7 @@ docker run \
   --name webhook-debugger \
   -d \
   --rm \
-  -p 8080:8080 \
+  -p 8000:8000 \
   unmgmt/webhook-debugger
 ```
 # Developing
